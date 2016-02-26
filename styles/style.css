@@ -1,0 +1,226 @@
+/* CSS Document */
+
+/*Control Panel*/
+#div-cpanel {
+	text-align: right;
+    margin: 25px 0px 25px 0px;
+}
+
+/*Top Menu*/
+#div-menu {
+	text-align: right;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+.menu-item {
+	display: inline;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: 1px rgba(0,0,0,0) solid;
+}
+.menu-item:hover {
+	background-color: rgba(221,64,0,0.02);
+	border: 1px rgba(128,64,0,0.1) solid;
+	color: #900;
+	box-shadow: inset 0px 0px 10px -5px #884400;
+}
+
+/*Side Menu*/
+
+#div-category {
+    position: relative;
+    top: 0px;
+    margin-top: -50px;    
+	width: 250px;	    
+}
+.div-cat-menu {
+	padding: 10px 10px;
+	background-color: rgba(221,221,221,0.25);
+	border-bottom: #333 solid 1px;
+}
+.div-cat-menu:hover {
+	background-color: rgba(51,51,51,1);
+	color: #FFF;
+}
+.div-cat-menu-selected { 
+	background-color: rgba(0,32,0,.75); 
+	color: #FFF;	
+}
+
+/* Logo */
+#div-header {
+	background-image: url(/images/header.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 250px;	
+    width: 250px;
+}
+
+/*Center All*/
+.center-it {
+	width: 1000px;
+	margin: auto;
+}
+
+/*Main Page*/
+#div-page {
+	box-shadow: 0px 3px 16px -8px #000 inset;
+	padding: 25px;
+	margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+.div-comment {
+    box-shadow: 0px 7px 10px -8px #000 inset;
+    padding: 25px;
+}
+
+/*Footer Menu*/
+#div-footer {
+	box-shadow: 0px 7px 10px -8px #000 inset;
+    background-color: #FFF;
+	padding: 25px;
+	max-width: 950px;
+}
+
+/* Button */
+.btn {
+	color: #FFF !important;
+	font-size: 16px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	background-color: #A52A2A;
+	border: none;
+}
+.btn[blue] { background-color: #48F; padding: 5px 15px; font-size: 12px; }
+.btn[green] { background-color: #484; padding: 5px 15px; font-size: 12px; }
+.btn:hover{	box-shadow: #333 0px 0px 10px -1px;}
+.btn:active{ box-shadow: none; }
+.btn:disabled{ background-color: #666; }
+.btn-menu { 
+    color: #FFF !important;
+    border: none;
+    border-bottom: 1px solid #fff;
+	font-size: 16px;
+	padding: 5px 15px;
+	background-color: #A52A2A;
+    z-index: 100;
+}
+.btn-menu:hover { background-color: #fEE; color: #000 !important; box-shadow: #333 0px 0px 10px -1px; }
+
+/*Search*/
+
+#search-drop-down {
+	position: absolute;
+	background: white;
+	z-index: 128;
+    padding: 3px;
+	width: 250px;
+	text-align: left;
+	margin-left: 80px;
+	border-radius: 5px;
+	border: 1px #DDD solid;
+}
+.drop-down {padding: 7px;}
+.drop-down:hover {
+    background-color: #a7a7a7 !important;
+}
+
+/*Table*/
+.table-h {
+    background-color: #333;
+    color: #FFF;
+    padding: 5px;
+    text-align: center;
+    box-shadow: inset 1px 1px 2px #FFF;
+}
+.table-d {
+    padding: 10px 10px;
+    border: 0px;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-color: #000;
+    border-style: dotted;
+    border-radius: 0px 0px 0px 15px;
+}
+.table-u {
+    padding: 12px 10px;
+    border: 0px;
+    cursor: pointer;    
+    border-right: 1px;
+    border-top: 1px;
+    margin-left: -2px;
+    border-color: #000;
+    border-style: dotted;
+    border-radius: 0px 15px 0px 0px;
+}
+
+/*Extras*/
+
+.rupee {
+	background-image: url(/images/rupee.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: center;
+}
+.error {
+	font-size: 12px;
+	color: #F66;
+}
+.list-head { 
+	color: #48F;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 1px dotted #248; 
+}
+.div-list {	padding: 20px; border-radius: 10px; overflow: auto; }
+.div-list:hover { background-color: rgba(153,180,221,.1); }
+.txt {
+	padding: 5px;
+	box-shadow: #000 0px 0px 5px -2px inset;
+	border-radius: 5px;
+	width: 250px;
+	outline: none;
+}
+
+#btn-buy-now {
+    height: 38px;
+    width: 218px;
+    background-image: url(/images/buynow.png);
+    background-size: 218px 77px;
+    background-position: 0px 0px;
+    border: none;
+    background-color: #CCC;
+    cursor: pointer;
+}
+#btn-buy-now:hover {
+    background-position: 0px 38px;
+}
+.item-list {
+    float: left;
+    padding: 25px 5px;
+}
+.item-remove {
+    height: 20px; 
+    width: 20px; 
+    background-color: #666; 
+    float: right;
+    color: #FFF;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.item-change { cursor: pointer; }
+.offer {
+    padding: 10px 0px; 
+    height: 40px;
+    text-align: center;
+    width: 40px; 
+    position: absolute; 
+    background-image: url(/images/offer.png);
+    background-size: contain;
+    color: #FFF;
+    margin-top: 60px;
+    margin-left: 70px;
+    background-repeat: no-repeat;
+}

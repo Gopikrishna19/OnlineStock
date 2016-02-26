@@ -1,0 +1,45 @@
+body {
+	font-size: 16px;
+	font-family: Georgia;
+	margin: 0px;
+	background-image: url(/images/bg.png);
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+h1 {
+	margin: 0px;
+}
+h2 {
+	font-size: 20px;
+	margin: 0px;
+}
+hr {
+	border-color: #F90;
+}
+hr.split {
+	border: rgba(221,0,0,0.15) 1px solid;
+	width: 60%;
+}
+a, a:link, a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+a:hover {
+	color: #600;
+}
+input {
+	outline: none;
+}
+fieldset {
+    border-radius: 10px;
+    border: dotted 1px #484;
+    padding: 25px;
+}
+legend {
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px #484 dotted;
+    text-align: right;
+    font-size: 12px;
+    color: #484;
+}
